@@ -1,0 +1,25 @@
+{
+  "name": "mongoose_wp",
+  "version": "1.0.0",
+  "description": "backend ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongobd"
+  ],
+  "author": "nadine",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
